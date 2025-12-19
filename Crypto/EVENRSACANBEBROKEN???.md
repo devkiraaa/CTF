@@ -88,3 +88,8 @@ print("-" * 30)
 
 
 </p>
+Tạo file code này trên máy ảo.
+nano [tên file].py
+Sau đó chạy file
+python3 [tên file].py
+Ta được flag: picoCTF{tw0_1$_pr!m3df98b648}
