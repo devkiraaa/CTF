@@ -13,7 +13,7 @@ hashcat -m 0 -a 0 hash.txt /usr/share/wordlists/rockyou.txt với rockyou.txt l�
 </p>
 Tiến hành show mật khẩu ta được password123. Nhập password ta được 1 hàm băm mới cần giải để nhập mật khẩu cho cổng thứ 2. </br>
 <p>
-  <img width="744" height="181" alt="image" src="https://github.com/user-attachments/assets/8c0f6407-76c5-4e89-b570-d03ea92f2dd2" />
+  <img width="730" height="121" alt="image" src="https://github.com/user-attachments/assets/bd5f527c-4839-4331-961e-6073322201ba" />
 </p>
 Ở đây ta thấy một hàm băm mới có 40 ký tự Hex -> Mã SHA-1 -> giải hàm băm này để lấy mật khẩu </br>
 <p>
@@ -26,8 +26,18 @@ Dùng lệnh hashcat -m 100 -a 0 hash1.txt /usr/share/wordlists/rockyou.txt. </b
 </p>
 Ta được mật khẩu là letmein. Nhập mật khẩu ta sang cổng tiếp theo với một hàm băm mới. </br>
 <p>
-  <img width="842" height="109" alt="image" src="https://github.com/user-attachments/assets/28f87a48-063d-4039-bab5-b0e8cf44a909" />
+  <img width="811" height="131" alt="image" src="https://github.com/user-attachments/assets/84bd6315-2d2e-411d-a767-ed68bc4405ea" />
 </p>
 Ta thấy hàm băm mới có 256 ký tự Hex -> SHA-256 -> Giải hàm băm này.</br>
-Trước hết tạo 1 file hash2.txt chứa hàm băm này. Sau đó cần giải mã hàm băm này 
+Trước hết tạo 1 file hash2.txt chứa hàm băm này. Sau đó cần giải mã hàm băm này. Rồi chạy lệnh để giải hàm băm. </br>
+<p>
+  <img width="943" height="329" alt="Screenshot 2025-12-28 103633" src="https://github.com/user-attachments/assets/6bd344f9-6792-46ea-b748-b2d40077b597" />
+</p>
+Giải hàm băm sau dùng --show để hiện thị passwork ta được password là: qwerty098 </br>
+<p>
+  <img width="809" height="80" alt="image" src="https://github.com/user-attachments/assets/1ff194d3-4296-4502-9c81-248ac3d9e32d" />
+</p>
+Sau đó ta được flag: picoCTF{UseStr0nG_h@shEs_&PaSswDs!_ccc21957}.
+
+
 
